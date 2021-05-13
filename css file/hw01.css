@@ -1,0 +1,27 @@
+
+header{
+	background-color: #d3d3d3;
+}
+h1{
+	text-align: center;
+	font-variant-caps:all-small-caps;
+	color:#ffffff;
+	font-size: 200%;
+
+}
+
+a{
+	 color: black;
+  background-color: rgb(197,197,197);
+}
+img{
+	display:none;
+}
+section{
+	background: #808080;
+}
+h2{
+	font-variant-caps: all-small-caps;
+	color: #0000ff;
+	font-size: 180%;
+}

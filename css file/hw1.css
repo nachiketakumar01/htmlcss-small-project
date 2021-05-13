@@ -1,0 +1,121 @@
+body{
+    padding: 5px;
+    margin:14px;
+    font-size:14px;
+}
+header{
+    text-align: center;
+    background-image: url(' http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+    background-repeat: no-repeat;
+    color: #ffffff; 
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+h1{
+    font-variant-caps:all-small-caps; 
+    font-size: 31px;
+}
+nav{
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+}
+nav a{
+    display: inline-block;
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+  width: 13%;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+a:active{
+    background-color: white;
+    color:blue;
+}
+a:hover{
+    background-color: white;
+    color:blue;
+
+}
+
+.left{
+    display: inline-block;
+    background-color: #808000;
+    float: left;
+width: 18%;
+height: 600px;
+}
+img{
+    width: 170px;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border:   2px  solid black;
+}
+.right {
+width: 40%
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: none;
+  float: left;
+ font-weight: bold;
+ font-size: 15px;
+ margin-left: 4px;
+}
+h2{
+  font-size: 28px;
+  color: #000010;
+  margin-bottom: 20px;
+
+}
+table{
+ margin-left: 80px;
+ font-family:Arial,Times,serif,"Times New Roman" ;
+ line-height: normal;
+ font-weight: normal;
+}
+tr{
+  background: #E0FFFF;
+text-align:center;
+  opacity: 0.7;
+
+}
+ th,td{
+  border:1px solid white;
+  padding:10px;
+  text-align: left;
+
+ }
+ th{
+  background-color:#9ACD32;
+  color:#FFFFFF;
+border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 3px white solid;
+  height: 30px;
+ }
+ td{
+  border-radius: 2px;
+  border-radius: 3px;
+
+ }
+ tr th:first-child, tr td:first-child {
+    text-align: left;
+  }
+tr:hover{ 
+background: #E0FFFF;
+  opacity: 1;
+}
+
+
+
